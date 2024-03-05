@@ -12,8 +12,11 @@
                         <p class="text-2">Lorem ipsum dolor sit amet.</p>
                     </h1>
                 </div>
-                <h2 class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tempore unde, ducimus at modi natus voluptas iste optio et officia veritatis voluptatibus iusto alias ipsam iure! Atque sunt cumque iusto.
+                <h2 class="subtitle">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tempore unde, ducimus at modi natus voluptas iste optio et officia veritatis voluptatibus iusto alias ipsam iure! Atque sunt cumque iusto.
                 </h2>
+                
+                <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
                 <div style="color:black" class="scroll-button animate-scroll" tabindex="0">
                     <a href="/about">Click Here</a>
                     <div class="arrow">--l</div>
