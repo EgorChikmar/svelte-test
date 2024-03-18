@@ -3,11 +3,11 @@
         <a href="/" class="nav-logo" title="Back to Homepage">Имя Фамилия </a>
         <div class="nav-links">
             
-            {#if link.isShow}
+            {#each nav as link}
 
 <a href={link.href} class="link">{link.title}</a>
 
-{/if}
+{/each}
         </div>
     </div>
 </nav>
