@@ -5,10 +5,10 @@
 <div class="container">
     <h1>Мои проекты</h1>
     <div class="apps">
-        {#each rountes as page}
+        {#each routes as page}
         <div class="app">
             <h2>{page.title}</h2>
-            <p>{[page.body]}</p>
+            <p>{page.body}</p>
             <p class="readmore">
                 <a class="link" href={`/project/apps/${page.id}`}>
                 Читать далее
@@ -19,11 +19,7 @@
     </div>
 </div>
 
-<script>
-
-    import { routes } from './routes.js';
-    
-    </script>
+>
 
     <style>
         .container {
@@ -48,3 +44,8 @@
             color: rgb(10, 10, 139);
         }
     </style>
+    
+    <script>
+
+import { routes } from './routes.js';    
+    </script>
